@@ -7,14 +7,14 @@ import { Link } from 'react-router-dom';
 function Nav({ onSearch }) {
   return (
     <nav className= "bar">
-      <Link to='/'className= "nombre">
+      <Link to='/weather-app/'className= "nombre">
         <div >
             Ale's- Weather App
         </div>
       </Link>
     
    
-      <Link to='/about' className= "about">
+      <Link to='/weather-app/about' className= "about">
         <span>About</span>
       </Link>
 

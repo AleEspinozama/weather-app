@@ -9,7 +9,7 @@ export default function Card({min, max, name, img, id, onClose}) {
           <div className= {s.close}>
           <button className= {s.btn} onClick={onClose}>X</button>
           </div>
-          <Link to={`/ciudad/${id}`} className={s.prueba}>
+          <Link to={`/weather-app/ciudad/${id}`} className={s.prueba}>
           <h1 className ={s.city}>{name}</h1>
           </Link>
         </div>
