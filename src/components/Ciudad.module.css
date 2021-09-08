@@ -11,7 +11,7 @@
     height: 22rem;
     background-color:mediumseagreen;
     border-radius: 15px;
-    box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, .2);
+    box-shadow: 12px 12px 2px 1px rgba(27, 27, 27, 0.6);
     border: 2px solid palegreen;
     color:rgb(247, 185, 72);
   }
