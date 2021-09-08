@@ -8,7 +8,7 @@
 .card {
     margin: 20px;
     width: 25rem;
-    height: 22rem;
+    height: 24rem;
     background-color:mediumseagreen;
     border-radius: 15px;
     box-shadow: 12px 12px 2px 1px rgba(27, 27, 27, 0.6);
@@ -25,4 +25,29 @@
 
 .info{
     color: whitesmoke;
+}
+
+.close {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 4px;
+    margin-top: 4px;
+}
+
+.btn {
+    background-color: lightgoldenrodyellow;
+    justify-content: flex-end;
+    color: mediumseagreen;
+    border-radius: 50%;
+    font-weight: bold;
+    border: 2px solid palegreen;
+}
+
+.btn:hover {
+    background-color: mediumseagreen;
+    color: whitesmoke;
+}
+
+.btn:focus {
+    outline: none;
 }
