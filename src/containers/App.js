@@ -54,21 +54,21 @@ function App() {
   return (
     <div className="App">
       <Route
-        path='weather-app/'
+        path='/weather-app/'
         render={() => <Nav onSearch={onSearch} />}
       />
 
       <Route
-          exact path='weather-app/about'
+          exact path='/weather-app/about'
           component={About}
       />   
       <Route 
-          exact path= 'weather-app/'
+          exact path= '/weather-app/'
           render= {() => <Cards cities={cities} onClose={onClose} />}
       />
 
       <Route
-          exact path='weather-app/ciudad/:ciudadId'
+          exact path='/weather-app/ciudad/:ciudadId'
           render={({match}) => <Ciudad
                 city={onFilter(match.params.ciudadId)}  
         />}
