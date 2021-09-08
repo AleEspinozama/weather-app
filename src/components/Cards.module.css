@@ -1,0 +1,19 @@
+.cards{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.nocity {
+    color:whitesmoke;
+    background-color: rgba(6, 36, 34, 0.5);
+    font-size: 40px;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    border-radius: 10px;
+    padding: 10px;
+}

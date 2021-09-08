@@ -1,0 +1,28 @@
+
+.container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;  
+    align-content: center;
+}
+.card {
+    margin: 20px;
+    width: 25rem;
+    height: 22rem;
+    background-color:mediumseagreen;
+    border-radius: 15px;
+    box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, .2);
+    border: 2px solid palegreen;
+    color:rgb(247, 185, 72);
+  }
+  
+.textos {
+    margin: 20px;
+    justify-content: center;
+
+}
+
+
+.info{
+    color: whitesmoke;
+}

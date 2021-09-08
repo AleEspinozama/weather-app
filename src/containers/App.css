@@ -1,0 +1,25 @@
+.App {
+  text-align: center;
+  /* background-color: lightblue; */
+
+}
+
+.row {
+  display: flex;
+  justify-content: center;
+}
+
+body{
+  text-align: center;
+  background-image: url("../img/bg_HD.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+@media (max-width:660px){
+  body{
+    background-color: lightblue;
+    background-image: none;
+
+  }
+}

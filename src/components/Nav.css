@@ -1,0 +1,24 @@
+
+.bar{
+  background-color:rgb(2, 41, 54);
+  display: flex;
+  align-items: center;
+  justify-content:space-around;
+}
+
+.sbar {
+  margin: 10px;
+}
+
+.nombre {
+  color:rgb(112, 236, 168);
+}
+
+.about {
+  color:whitesmoke;
+}
+
+.about:hover, .nombre:hover {
+  color:rgb(231, 173, 66);
+  text-decoration: none;
+}

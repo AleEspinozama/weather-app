@@ -1,0 +1,31 @@
+/* .bar{
+    justify-self: left;
+    
+} */
+
+.btn{
+    color:whitesmoke;
+    background-color: mediumseagreen;
+    border-radius: 5px;
+    border: 2px solid palegreen;
+    box-shadow: 5px 5px 2px 1px rgba(0, 0, 0, 0.2);  
+}
+
+.btn:hover{
+    transform: scale(1.1);
+}
+
+.btn:focus{
+    outline: none;
+
+}
+
+.input{
+    margin: 10px;
+    background-color:lightgray;
+    border-radius: 5px;
+}
+
+::placeholder{
+    color:dimgray;
+}
