@@ -35,11 +35,20 @@ function App() {
             clouds: recurso.clouds.all,
             latitud: recurso.coord.lat,
             longitud: recurso.coord.lon
-          };
-          setCities(oldCities => [...oldCities, ciudad]);
-        } else {
-          alert("City not found");
+        };
+
+        if (cities.filter(e => e.id === ciudad.id).length > 0) {
+          alert("City already shown");
+          setCities(oldCities => [...oldCities]);
         }
+        else {
+          setCities(oldCities => [...oldCities, ciudad]);
+        }
+
+        } 
+          else {
+            alert("City not found");
+          }
       });
   }
 
@@ -48,18 +57,19 @@ function App() {
       if(ciudad.length > 0) {
           return ciudad[0];
       } else {
+          console.log("llegué al null")
+          alert("Esa ciudad no existe")
           return null;
       }
   }
   return (
     <div className="App">
       <Route
-        path='/weather-app/'
+        path='/weather-app/' // '/'
         render={() => <Nav onSearch={onSearch} />}
       />
-
       <Route
-          exact path='/weather-app/about'
+          exact path='/weather-app/about' 
           component={About}
       />   
       <Route 

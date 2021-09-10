@@ -6,6 +6,11 @@
   justify-content:space-around;
 }
 
+@media (max-width:660px){
+.bar{
+  flex-direction: column;
+}
+}
 .sbar {
   margin: 10px;
 }

@@ -12,14 +12,15 @@
 body{
   text-align: center;
   background-image: url("../img/bg_HD.jpg");
+  background-size:auto;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-attachment: fixed;
 }
-
+/* 
 @media (max-width:660px){
   body{
     background-color: lightblue;
     background-image: none;
 
   }
-}
+} */

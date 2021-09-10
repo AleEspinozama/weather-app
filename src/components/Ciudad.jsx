@@ -10,7 +10,7 @@ export default function Ciudad({city}) {
                 <div className={s.card}>
                     
                     <div className= {s.textos}>
-                    <h2 classname= {s.title}>{city.name}</h2>
+                    <h2 className= {s.title}>{city.name}</h2>
                     <div className={s.info}>
                     <img src={`http://openweathermap.org/img/wn/${city.img}@2x.png`} alt={"img"} />
                         <div>Temperature: {city.temp} ºC</div>
@@ -21,8 +21,8 @@ export default function Ciudad({city}) {
                         <div>Longitude: {city.longitud}º</div>
                     </div>
                     </div>
-                    <Link to='/weather-app/'className= "nombre">
-                        <button className= {s.btn}>Back</button>
+                    <Link to='/weather-app/'className= "about">
+                        <button className= {s.btn}>⇽</button>
                     </Link>
             </div>
             
